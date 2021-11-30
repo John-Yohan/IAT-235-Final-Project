@@ -1,0 +1,62 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+}
+
+nav p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  float: left;
+  padding: 0rem 1rem;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 1rem;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  stroke: none;
+  top: 3.5rem;
+  left: 0.5rem;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 15rem;
+}
+
+nav ul li ul li a {
+  padding: 1rem 1rem;
+}
+
+nav ul li ul li a:hover {
+  background-color: whitesmoke;
+}

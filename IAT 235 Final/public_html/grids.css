@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+}
+
+.column {
+  padding: 1rem;
+  background-color: white;
+}
+
+.row {
+  padding: 1rem;
+  background-color: white;
+}
